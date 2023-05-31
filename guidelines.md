@@ -3,26 +3,21 @@
 # Xealth Project
 
 ​
-
 ## Scenario & Problem Domain
 
-​
-
-Your team has been contracted to improve the cybersecurity processes and systems for a client company.
+Our team has been contracted to improve the cybersecurity processes and systems for a client company.
 
 ​
 
 ## Assignments & Deliverables
 
-​
-
 Keep an eye on Canvas for assignments due this week.
 
 - Remember to complete nightly Project Report assignments. These assignments are easy to forget as you get swept up in interesting project subject matter.
 
-- Necessities such as team agreement (conflict resolution, etc.) and project plan will be created in your Project Prep assignments. Instructor approval is required before progressing to the next Project Prep assignment.
+- Necessities such as team agreement (conflict resolution, etc.) and project plan will be created in our Project Prep assignments. Instructor approval is required before progressing to the next Project Prep assignment.
 
-- By demo day, you'll need these deliverables assembled:
+- By demo day, we'll need these deliverables assembled:
 
   - Demo day slide deck
 
@@ -34,13 +29,11 @@ Keep an eye on Canvas for assignments due this week.
 
   - Google drive docs (if used)
 
-- Track your individual contributions throughout the project so that you can easily submit your individual contributions writeup on demo day for grading.
+- Track our individual contributions throughout the project so that you can easily submit our individual contributions writeup on demo day for grading.
 
 ​
 
 ## Standup
-
-​
 
 Every day, the instructional team with circulate to your group for a formal "Standup Meeting". Standup should take approximately 10 minutes per team. Some instructors will opt for a "retro" later in the day to review how things went.
 
@@ -54,23 +47,21 @@ During standup, each team member will address these three points:
 
 ​
 
-  1. What you individually accomplished yesterday
+  1. What we individually accomplished yesterday
 
-  1. What you individually plan to accomplish today
+  1. What we individually plan to accomplish today
 
-  1. Anything that is blocking you from making progress
+  1. Anything that is blocking us from making progress
 
 ​
 
 ## Presentation Prep
 
-​
-
-Your team will practice your presentation prior to the final presentation day. This is typically scheduled by the instructional team. During the practice presentation, the instructional team will provide constructive feedback about the flow of the presentation and delivery of the subject matter.
+Our team will practice our presentation prior to the final presentation day. This is typically scheduled by the instructional team. During the practice presentation, the instructional team will provide constructive feedback about the flow of the presentation and delivery of the subject matter.
 
 ​
 
-Practice and prepare your technical demonstrations in advance of demo day to rule out any quirks/bugs.
+Practice and prepare our technical demonstrations in advance of demo day to rule out any quirks/bugs.
 
 ​
 
@@ -78,9 +69,9 @@ General slide deck guidelines:
 
 - The presentation slides must use the aesthetic formatting of the [template slide deck](https://docs.google.com/presentation/d/16LOH5KiIVGq3oJReWa2kVO_VgQZlYG9K4vNXJuJNJdE).
 
-  - Remember to create your own copy of the template and do not edit the template itself.
+  - Remember to create our own copy of the template and do not edit the template itself.
 
-- Ensure your timing is no more than 25 minutes long, including some time at the end for questions.
+- Ensure our timing is no more than 25 minutes long, including some time at the end for questions.
 
 - Present from the final product, deployed site, or official documentation that you produce.
 
@@ -150,8 +141,6 @@ Speak clearly and do not use slang or profanity. Take it seriously and be profes
 
 ## Grading
 
-​
-
 Each team member's grade is split between their individual effort, and the project's technical merit.
 
 ​
@@ -166,13 +155,11 @@ Technical merit of the project overall is evaluated according the requirements.
 
 ### Deliverables
 
-​
-
 Submit to instructor a single "Project Report" Google Doc. All team members are to contribute an equal share to documentation corresponding to the components they worked on and should clearly indicate which components each contributed to in their individual project submission notes.
 
 ​
 
-Teams are encouraged to adopt an Agile mindset with regards to the development of their project deliverables and regularly solicit feedback from staff regarding their project report, slide deck, and other deliverables. The quality of your reporting will be evaluated and will directly impact the group submission grade. Remember to budget adequate time and attention for project deliverables to ensure a high quality of work is delivered. The client point of contact should be contacted via email regarding scenario-specific scoping.
+Teams are encouraged to adopt an Agile mindset with regards to the development of their project deliverables and regularly solicit feedback from staff regarding their project report, slide deck, and other deliverables. The quality of our reporting will be evaluated and will directly impact the group submission grade. Remember to budget adequate time and attention for project deliverables to ensure a high quality of work is delivered. The client point of contact should be contacted via email regarding scenario-specific scoping.
 
 ​
 
@@ -230,9 +217,7 @@ Here is a list of requirements your manager would like to see addressed in your 
 
 ### Resources
 
-​
-
-Reference the below resources for developing your security assessment report.
+Reference the below resources for developing our security assessment report.
 
 ​
 
