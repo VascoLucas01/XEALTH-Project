@@ -20,6 +20,10 @@ Due to a recent audit, a number of internal processes and systems were found to 
 
 **Objective 5:** DLP controls
 
+## Guidelines
+
+
+
 ## Deliverables:
 
 ## The Project was developed and tested using the following OS:
