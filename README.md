@@ -24,6 +24,7 @@ Due to a recent audit, a number of internal processes and systems were found to 
 ## Deliverables:
 
 * [Team Agreements](https://github.com/VascoLucas01/XEALTH-Project/blob/main/TeamAgreements/TeamAgreements.md)
+* [Pitch](https://github.com/VascoLucas01/XEALTH-Project/blob/main/Pitch.md)
 
 ## The Project was developed and tested using the following OS:
 
