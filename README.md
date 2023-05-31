@@ -20,11 +20,10 @@ Due to a recent audit, a number of internal processes and systems were found to 
 
 **Objective 5:** DLP controls
 
-## Guidelines
-
-
 
 ## Deliverables:
+
+* [Team Agreements](https://github.com/VascoLucas01/XEALTH-Project/blob/main/TeamAgreements/TeamAgreements.md)
 
 ## The Project was developed and tested using the following OS:
 
