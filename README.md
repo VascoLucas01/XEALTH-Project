@@ -11,7 +11,13 @@ Due to a recent audit, a number of internal processes and systems were found to 
 ## Project Objectives:
 
 **Objective 1:** Proper IAM for all team members must be implemented using AWS best practices
+
 **Objective 2:** CIS-compliant Windows Server DC
+
 **Objective 3:** SIEM/log aggregation system
+
 **Objective 4:** Network traffic monitoring
+
 **Objective 5:** DLP controls
+
+
