@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 ### LIBRARIES
+from botocore.exceptions import ClientError
 import boto3
 import sys
 
@@ -18,8 +19,14 @@ def main():
     
     # iterate from 1 to the number_of_names provided
     for i in range(1,number_of_names):
-        iam.create_user(UserName=sys.argv[i])
-     
+        try:
+            iam.create_user(UserName=sys.argv[i])
+        except ClientError as e:
+            if e.response['Error']['Code'] == 'EntityAlreadyExists':
+                print(f"Creation of User unsuccessful: The user \'{sys.argv[i]}\' already exists.")
+        except Exception as e:
+            print(f"Exception type: {type(e)}\n")
+            print(f"---- Something went wrong when creating user \'{sys.argv[i]}\'----")
     
 
 if __name__ == "__main__":
