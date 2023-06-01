@@ -1,15 +1,10 @@
 #!/usr/bin/python3
 
 ### LIBRARIES
-import botocore
+from botocore.exceptions import ClientError
 import boto3
 import sys
 
-### FUNCTIONS
-# Function name: main
-# Purpose      : Delete users
-# Arguments    : none
-# Return       : none   
 def main():
 
     number_of_names = len(sys.argv)
@@ -26,11 +21,13 @@ def main():
     for i in range(1,number_of_names):
         try: 
             iam.delete_user(UserName=sys.argv[i])
+        except ClientError as e:
+            if e.response['Error']['Code'] == 'NoSuchEntity':
+                print(f"The user \'{sys.argv[i]}\' was not deleted: User \'{sys.argv[i]}\' cannot be found.")
         except Exception as e:
             print(f"Exception type: {type(e)}\n")
-            print(f"---- Something went wrong when deleting user \"{sys.argv[i]}\" ----")
+            print(f"---- Something went wrong when deleting user \'{sys.argv[i]}\' ----")
 
-    
 
 if __name__ == "__main__":
     main()    
