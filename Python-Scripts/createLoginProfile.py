@@ -23,7 +23,7 @@ def user_exists(iam, user_name):
     
     
 # Function name: main
-# Purpose      : Delete users
+# Purpose      : Creates users' login profile
 # Arguments    : none
 # Return       : none   
 def main():
