@@ -35,7 +35,7 @@ def group_exists(iam, group_name):
 
 
 # Function name: main
-# Purpose      : 
+# Purpose      : Prompts the user to specify the user and the group in order to add that user to that specific group
 # Arguments    : none
 # Return       : none        
 def main():
