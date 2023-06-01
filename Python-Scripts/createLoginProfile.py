@@ -15,10 +15,8 @@ def user_exists(iam, username):
         iam.get_user(UserName=username)
         return True
     except iam.exceptions.NoSuchEntityException:
-        print("aqui")
         return False
     except:
-        print("aqui2")
         return False
     
     
