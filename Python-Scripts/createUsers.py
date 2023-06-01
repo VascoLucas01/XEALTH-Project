@@ -6,8 +6,8 @@ import sys
 
 def main():
 
-    len = len(sys.argv)
-    if len == 1:
+    number_of_names = len(sys.argv)
+    if number_of_names == 1:
         print("usage: {0} <name_1> <name_2> ... <name_n>".format(
             sys.argv[0]
             )
@@ -16,7 +16,7 @@ def main():
         
     iam = boto3.client('iam')
     
-    for i in len:
+    for i in number_of_names:
         iam.create_user(UserName=sys.argv[i])
      
     
