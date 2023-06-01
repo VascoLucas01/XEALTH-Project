@@ -5,6 +5,10 @@ import botocore
 import boto3
 import sys
 
+# Function name: main
+# Purpose      : Delete users
+# Arguments    : none
+# Return       : none   
 def main():
 
     number_of_names = len(sys.argv)
