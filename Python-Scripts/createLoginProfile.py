@@ -12,11 +12,13 @@ import sys
 # Return       : none   
 def user_exists(iam, user_name):
     try:
-        iam.get_user(user_name=user_name)
+        iam.get_user(UserName=user_name)
         return True
     except iam.exceptions.NoSuchEntityException:
+        print("aqui")
         return False
-    except:
+    except Exception as e:
+        print(e)
         return False
     
     
@@ -42,7 +44,7 @@ def main():
     try: 
         if(user_exists(iam, user_name)):       
             iam.create_login_profile(
-            user_name=user_name,
+            UserName=user_name,
             Password=password,
             PasswordResetRequired=True
         )
