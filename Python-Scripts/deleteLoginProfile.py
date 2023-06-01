@@ -21,7 +21,7 @@ def user_exists(iam, user_name):
     
     
 # Function name: main
-# Purpose      : 
+# Purpose      : Deletes the users specified
 # Arguments    : none
 # Return       : none   
 def main():
