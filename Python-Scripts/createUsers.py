@@ -5,6 +5,11 @@ from botocore.exceptions import ClientError
 import boto3
 import sys
 
+### FUNCTIONS
+# Function name: main
+# Purpose      : Creates users
+# Arguments    : none
+# Return       : none    
 def main():
 
     number_of_names = len(sys.argv)
