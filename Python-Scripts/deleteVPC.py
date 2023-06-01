@@ -29,7 +29,7 @@ def main():
     except Exception as e:
         print(e)
         print(f"Exception type: {type(e)}\n")
-        print(f"---- Something went wrong when creating the vpc ----")
+        print(f"---- Something went wrong when deleting the vpc ----")
     
     
     
