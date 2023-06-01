@@ -10,9 +10,9 @@ import boto3
 # Purpose      : Verify if the user specified exists
 # Arguments    : iam, username
 # Return       : none   
-def user_exists(iam, username):
+def user_exists(iam, user_name):
     try:
-        iam.get_user(UserName=username)
+        iam.get_user(UserName=user_name)
         return True
     except iam.exceptions.NoSuchEntityException:
         return False
@@ -35,7 +35,7 @@ def group_exists(iam, group_name):
 
 
 # Function name: main
-# Purpose      : 
+# Purpose      : Prompts the user for a user name and group name in order to remove that user from that group
 # Arguments    : none
 # Return       : none        
 def main():
