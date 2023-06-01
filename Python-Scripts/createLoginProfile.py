@@ -8,11 +8,11 @@ import sys
 ### FUNCTIONS
 # Function name: user_exists
 # Purpose      : Verify if the user specified exists
-# Arguments    : iam, username
+# Arguments    : iam, user_name
 # Return       : none   
-def user_exists(iam, username):
+def user_exists(iam, user_name):
     try:
-        iam.get_user(UserName=username)
+        iam.get_user(user_name=user_name)
         return True
     except iam.exceptions.NoSuchEntityException:
         return False
@@ -35,19 +35,19 @@ def main():
         exit(0)
         
     iam = boto3.client('iam')
-    username = sys.argv[1]
+    user_name = sys.argv[1]
     password = sys.argv[2]
     
     
     try: 
-        if(user_exists(iam, username)):       
+        if(user_exists(iam, user_name)):       
             iam.create_login_profile(
-            UserName=username,
+            user_name=user_name,
             Password=password,
             PasswordResetRequired=True
         )
         else:
-            print(f"---- The user {username} does not exist ----")
+            print(f"---- The user {user_name} does not exist ----")
     except ClientError as e:
         if e.response['Error']['Code'] == 'PasswordPolicyViolation':
             print("Creation of Login Profile unsuccessful: \n\n************************IMPORTANT************************\nPassword should have a minimum length of 8. \n\nPassword should meet 2 more of the following requirements: \n1. Password should have at least one uppercase letter \n2. Password should have at least one number \n3. Password should have at least one symbol")
