@@ -5,6 +5,7 @@ import botocore
 import boto3
 import sys
 
+### FUNCTIONS
 # Function name: main
 # Purpose      : Delete users
 # Arguments    : none
