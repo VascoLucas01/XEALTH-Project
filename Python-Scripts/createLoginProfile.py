@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 ### LIBRARIES
-import botocore
 from botocore.exceptions import ClientError
 import boto3
 import sys
@@ -16,10 +15,8 @@ def user_exists(iam, username):
         iam.get_user(UserName=username)
         return True
     except iam.exceptions.NoSuchEntityException:
-        print("aqui")
         return False
     except:
-        print("aqui2")
         return False
     
     
@@ -53,13 +50,12 @@ def main():
             print(f"---- The user {username} does not exist ----")
     except ClientError as e:
         if e.response['Error']['Code'] == 'PasswordPolicyViolation':
-            print("IMPORTANT: Password should have a minimum length of 8")
+            print("Creation of Login Profile unsuccessful: IMPORTANT -> Password should have a minimum length of 8")
     except Exception as e:
         print(f"Exception type: {type(e)}\n")
         print(f"---- Something went wrong ----")
     
     
-
 
 if __name__ == "__main__":
     main()    
