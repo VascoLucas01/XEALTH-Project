@@ -50,7 +50,8 @@ def main():
             print(f"---- The user {username} does not exist ----")
     except ClientError as e:
         if e.response['Error']['Code'] == 'PasswordPolicyViolation':
-            print("Creation of Login Profile unsuccessful: IMPORTANT -> Password should have a minimum length of 8")
+            print("Creation of Login Profile unsuccessful: \n\n************************IMPORTANT************************\nPassword should have a minimum length of 8. \n\nPassword should meet 2 more of the following requirements: \n1. Password should have at least one uppercase letter \n2. Password should have at least one number \n3. Password should have at least one symbol")
+            print("*********************************************************")
     except Exception as e:
         print(f"Exception type: {type(e)}\n")
         print(f"---- Something went wrong ----")
