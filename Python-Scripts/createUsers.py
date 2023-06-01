@@ -16,7 +16,8 @@ def main():
         
     iam = boto3.client('iam')
     
-    for i in number_of_names:
+    # iterate from 1 to the number_of_names provided
+    for i in range(1,number_of_names):
         iam.create_user(UserName=sys.argv[i])
      
     
