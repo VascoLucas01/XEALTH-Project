@@ -18,7 +18,7 @@ import sys
 def main():
 
     number_of_names = len(sys.argv)
-    if number_of_names == 1:
+    if number_of_names != 4:
         print("usage: {0} <subnet_name> <vpc_id> <CIDR_block> (suggestion for CIDR_block: 10.0.0.0/24)".format(
             sys.argv[0]
             )
