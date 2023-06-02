@@ -29,3 +29,5 @@ Due to a recent audit, a number of internal processes and systems were found to 
 ## The Project was developed and tested using the following OS:
 
 ## Team Contributors:
+
+| [Vasco Lucas](https://github.com/VascoLucas01) 
