@@ -30,6 +30,3 @@ Due to a recent audit, a number of internal processes and systems were found to 
 
 ## Team Contributors:
 
-| [![Vasco Lucas](https://avatars.githubusercontent.com/u/110473841?v=4&s=144)](https://github.com/VascoLucas01) | [![Sérgio Charruadas](https://avatars.githubusercontent.com/u/20626461?v=4&s=144)](https://github.com/itzvenom) | [![Diogo Henriques](https://avatars.githubusercontent.com/u/125299195?v=4&s=144)](https://github.com/diohen90) |
-|---|---|---|
-| [Vasco Lucas](https://github.com/VascoLucas01) | [Sérgio Charruadas](https://github.com/itzvenom) | [Diogo Henriques](https://github.com/diohen90) |
