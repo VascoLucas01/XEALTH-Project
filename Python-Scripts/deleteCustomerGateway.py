@@ -8,7 +8,7 @@ import sys
 
 ### FUNCTIONS
 # Function name: main
-# Purpose      : Creates a customer gateway
+# Purpose      : Deletes a customer gateway
 # Arguments    : none
 # Return       : none 
 def main():
