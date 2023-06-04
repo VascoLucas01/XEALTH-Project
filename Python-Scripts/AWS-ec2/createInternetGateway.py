@@ -14,7 +14,7 @@ import sys
 def main():
 
     number_of_names = len(sys.argv)
-    if number_of_names != 3:
+    if number_of_names != 2:
         print("usage: {0} <internet-gateway-name>".format(
             sys.argv[0]
             )
