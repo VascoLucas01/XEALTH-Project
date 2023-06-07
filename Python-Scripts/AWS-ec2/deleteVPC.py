@@ -13,7 +13,7 @@ import sys
 def main():
 
     number_of_names = len(sys.argv)
-    if number_of_names == 1:
+    if number_of_names != 2:
         print("usage: {0} <vpc_id>".format(
             sys.argv[0]
             )

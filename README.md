@@ -29,3 +29,7 @@ Due to a recent audit, a number of internal processes and systems were found to 
 ## The Project was developed and tested using the following OS:
 
 ## Team Contributors:
+
+| [![Vasco Lucas](https://avatars.githubusercontent.com/u/110473841?v=4&s=144)](https://github.com/VascoLucas01) | [![Guilherme Cardoso](https://avatars.githubusercontent.com/u/37408949?v=4&s=144)](https://github.com/GascPT) | [![José Serpa Pinto](https://avatars.githubusercontent.com/u/79847245?v=4&s=144)](https://github.com/jserpa-p) |
+|---|---|---|
+| [Vasco Lucas](https://github.com/VascoLucas01) | [Guilherme Cardoso](https://github.com/GascPT) | [José Serpa Pinto](https://github.com/jserpa-p) |
