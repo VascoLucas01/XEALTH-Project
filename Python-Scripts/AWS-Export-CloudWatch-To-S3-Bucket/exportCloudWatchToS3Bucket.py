@@ -10,9 +10,9 @@ import datetime
 
 
 
-GROUP_NAME = "aws/lambda/applicationlambda"
-DESTINATION_BUCKET = "logexportbucketdemo"
-PREFIX = "CloudQuickLabs"
+GROUP_NAME = "data-protection-audit-logs"
+DESTINATION_BUCKET = "test2001t"
+PREFIX = "XEALTH"
 NDAYS = 0
 nDays = int(NDAYS)
 
