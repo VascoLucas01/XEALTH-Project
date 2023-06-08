@@ -38,3 +38,7 @@ def lambda_handler(event, context):
          destinationPrefix=BUCKET_PREFIX
         )
     print(response)
+
+    
+# REFERENCES
+# https://www.youtube.com/watch?v=JCRj8T2PNMA
