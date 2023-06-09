@@ -1,0 +1,85 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Deny non-HTTPS access",
+            "Effect": "Deny",
+            "Principal": "*",
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::amazon-macie-results-testtt/*",
+            "Condition": {
+                "Bool": {
+                    "aws:SecureTransport": "false"
+                }
+            }
+        },
+        {
+            "Sid": "Deny incorrect encryption header. This is optional",
+            "Effect": "Deny",
+            "Principal": {
+                "Service": "macie.amazonaws.com"
+            },
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::amazon-macie-results-testtt/*",
+            "Condition": {
+                "StringNotEquals": {
+                    "s3:x-amz-server-side-encryption-aws-kms-key-id": "arn:aws:kms:us-west-1:833991503211:key/72c21ee8-91a7-4653-8a03-51eaed38f78b"
+                }
+            }
+        },
+        {
+            "Sid": "Deny unencrypted object uploads. This is optional",
+            "Effect": "Deny",
+            "Principal": {
+                "Service": "macie.amazonaws.com"
+            },
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::amazon-macie-results-testtt/*",
+            "Condition": {
+                "StringNotEquals": {
+                    "s3:x-amz-server-side-encryption": "aws:kms"
+                }
+            }
+        },
+        {
+            "Sid": "Allow Macie to upload objects to the bucket",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "macie.amazonaws.com"
+            },
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::amazon-macie-results-testtt/*",
+            "Condition": {
+                "StringEquals": {
+                    "aws:SourceAccount": "833991503211"
+                },
+                "ArnLike": {
+                    "aws:SourceArn": [
+                        "arn:aws:macie2:us-west-1:833991503211:export-configuration:*",
+                        "arn:aws:macie2:us-west-1:833991503211:classification-job/*"
+                    ]
+                }
+            }
+        },
+        {
+            "Sid": "Allow Macie to use the getBucketLocation operation",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "macie.amazonaws.com"
+            },
+            "Action": "s3:GetBucketLocation",
+            "Resource": "arn:aws:s3:::amazon-macie-results-testtt",
+            "Condition": {
+                "StringEquals": {
+                    "aws:SourceAccount": "833991503211"
+                },
+                "ArnLike": {
+                    "aws:SourceArn": [
+                        "arn:aws:macie2:us-west-1:833991503211:export-configuration:*",
+                        "arn:aws:macie2:us-west-1:833991503211:classification-job/*"
+                    ]
+                }
+            }
+        }
+    ]
+}
