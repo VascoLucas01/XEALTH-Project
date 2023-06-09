@@ -28,6 +28,19 @@ Due to a recent audit, a number of internal processes and systems were found to 
 
 ## The Project was developed and tested using the following OS:
 
+### **On-Premises Network**
+
+![imagem](https://github.com/VascoLucas01/XEALTH-Project/assets/110473841/4e5dca94-c8a0-49f5-9abc-0aa4b673d746)
+
+- pfSense - Version 2.6.0-RELEASE (amd64)
+- Windows 10 Pro 22H2 - OS build 19045.2965
+- Kali Linux 2023.1 - OS Debian (amd64)
+
+### **AWS Network**
+
+- CIS Microsoft Windows Server 2016 Benchmark v1.4.0.12 - Level 1
+
+
 ## Team Contributors:
 
 | [![Vasco Lucas](https://avatars.githubusercontent.com/u/110473841?v=4&s=144)](https://github.com/VascoLucas01) | [![Guilherme Cardoso](https://avatars.githubusercontent.com/u/37408949?v=4&s=144)](https://github.com/GascPT) | [![José Serpa Pinto](https://avatars.githubusercontent.com/u/79847245?v=4&s=144)](https://github.com/jserpa-p) |
