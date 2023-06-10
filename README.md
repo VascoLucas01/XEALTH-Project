@@ -28,9 +28,15 @@ Due to a recent audit, a number of internal processes and systems were found to 
 
 ## The Project was developed and tested using the following OS:
 
-### **On-Premises Network**
+
+## XEALTH Topology
 
 ![imagem](https://github.com/VascoLucas01/XEALTH-Project/assets/110473841/c8ccde74-19be-4870-b8cf-ff0a56406d24)
+
+
+### **On-Premises Network**
+
+
 
 - pfSense - Version 2.6.0-RELEASE (amd64)
 - Windows 10 Pro 22H2 - OS build 19045.2965
