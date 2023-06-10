@@ -30,7 +30,7 @@ Due to a recent audit, a number of internal processes and systems were found to 
 
 ### **On-Premises Network**
 
-![imagem](https://github.com/VascoLucas01/XEALTH-Project/assets/110473841/4e5dca94-c8a0-49f5-9abc-0aa4b673d746)
+![imagem](https://github.com/VascoLucas01/XEALTH-Project/assets/110473841/c8ccde74-19be-4870-b8cf-ff0a56406d24)
 
 - pfSense - Version 2.6.0-RELEASE (amd64)
 - Windows 10 Pro 22H2 - OS build 19045.2965
