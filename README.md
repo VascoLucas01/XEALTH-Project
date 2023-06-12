@@ -43,8 +43,8 @@ Due to a recent audit, a number of internal processes and systems were found to 
 
 ### **AWS Network**
 
-- CIS Microsoft Windows Server 2016 Benchmark v1.4.0.12 - Level 1
-- Wazuh All-In-One Deployment
+- CIS Microsoft Windows Server 2016 Benchmark v1.4.0.12 - Level 1 (AMI)
+- Wazuh All-In-One Deployment (AMI)
 
 ## Team Contributors:
 
