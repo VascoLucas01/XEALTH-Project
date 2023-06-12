@@ -29,7 +29,7 @@ Due to a recent audit, a number of internal processes and systems were found to 
 
 ## XEALTH Topology
 
-![imagem](https://github.com/VascoLucas01/XEALTH-Project/assets/110473841/421d7f80-532d-478b-a76e-b6d40435e2f0)
+![imagem](https://github.com/VascoLucas01/XEALTH-Project/assets/110473841/5b099cd1-ba52-4893-ad08-21c93f1af3a4)
 
 ## The Project was developed and tested using the following OS:
 
