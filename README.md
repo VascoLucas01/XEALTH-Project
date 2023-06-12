@@ -29,7 +29,7 @@ Due to a recent audit, a number of internal processes and systems were found to 
 
 ## XEALTH Topology
 
-![imagem](https://github.com/VascoLucas01/XEALTH-Project/assets/110473841/5b099cd1-ba52-4893-ad08-21c93f1af3a4)
+![imagem](https://github.com/VascoLucas01/XEALTH-Project/assets/110473841/f8b83dc1-8d8a-4519-bcd1-c7d743e92700)
 
 ## The Project was developed and tested using the following OS:
 
@@ -44,7 +44,7 @@ Due to a recent audit, a number of internal processes and systems were found to 
 ### **AWS Network**
 
 - CIS Microsoft Windows Server 2016 Benchmark v1.4.0.12 - Level 1
-
+- Wazuh All-In-One Deployment
 
 ## Team Contributors:
 
