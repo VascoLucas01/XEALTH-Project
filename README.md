@@ -23,7 +23,7 @@ Due to a recent audit, a number of internal processes and systems were found to 
 
 ## Deliverables:
 
-[Team Agreements](https://github.com/VascoLucas01/XEALTH-Project/blob/main/TeamAgreements/TeamAgreements.md) | [Pitch](https://github.com/VascoLucas01/XEALTH-Project/blob/main/Pitch.md) | [Final Report]([https://drive.google.com/drive/u/2/my-drive](https://drive.google.com/file/d/1Xn5KtPZ7btMHQu2wxdXFQ8YMk-Yg4tVE/view?usp=sharing)) | [Slide Deck](https://docs.google.com/presentation/d/1UrRW5uQZP3hUkvn4fKjkVpm5-76hht-c/edit?usp=sharing&ouid=112211723954057872352&rtpof=true&sd=true)
+[Team Agreements](https://github.com/VascoLucas01/XEALTH-Project/blob/main/TeamAgreements/TeamAgreements.md) | [Pitch](https://github.com/VascoLucas01/XEALTH-Project/blob/main/Pitch.md) | [Final Report](https://drive.google.com/file/d/1Xn5KtPZ7btMHQu2wxdXFQ8YMk-Yg4tVE/view?usp=sharing) | [Slide Deck](https://docs.google.com/presentation/d/1UrRW5uQZP3hUkvn4fKjkVpm5-76hht-c/edit?usp=sharing&ouid=112211723954057872352&rtpof=true&sd=true)
 
 ## XEALTH Topology
 
