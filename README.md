@@ -8,6 +8,10 @@ Due to a recent audit, a number of internal processes and systems were found to 
 
 > **Xealth** is a digital health prescribing platform that enables clinicians to easily integrate, prescribe and monitor digital health tools for patients from their electronic health record (EHR) workflows. These can include patient education, online third-party apps and programs, device monitoring, and non-clinical services such as ride shares, food delivery and e-commerce product recommendations. Using the Xealth platform, care teams and physicians can monitor patient engagement and analyze the effects of more engaged patients. Xealth spun out of Providence St. Joseph Health (PSJH) in 2017, raising $9 million from a variety of investors including Providence Ventures and other health systems such as UPMC and Froedtert Medical College of Wisconsin.
 
+
+[Network Security Assessment](https://drive.google.com/file/d/1ZXjHFNgN_7ryly4qlKMlT252gTEACnHY/view?usp=sharing)
+
+
 ## Project Objectives:
 
 **Objective 1:** Proper IAM for all team members must be implemented using AWS best practices
